@@ -2,7 +2,7 @@
 
 [![Build Status](https://drone.osshelp.ru/api/badges/ansible/cookiecutter/status.svg)](https://drone.osshelp.ru/ansible/cookiecutter)
 
-Install [Cookiecutter](https://github.com/cookiecutter/cookiecutter) via PIP
+This role installs [Cookiecutter](https://github.com/cookiecutter/cookiecutter) via PIP.
 
 ## Usage (example)
 
