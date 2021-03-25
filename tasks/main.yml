@@ -1,0 +1,16 @@
+---
+- name: install dependencies
+  apt:
+    state: present
+    update_cache: true
+    cache_valid_time: 86400
+    name:
+      - python3-pip
+      - python3-setuptools
+
+- name: install Cookiecutter
+  pip:
+    executable: pip3
+    name: cookiecutter>={{ minimal_version }}
+  vars:
+    ansible_python_interpreter: /usr/bin/python3
